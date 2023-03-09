@@ -9,7 +9,7 @@ function preload() {
   collectSound = loadSound('audio/collect.wav');
   overSound = loadSound('audio/over.mp3');
   themeSound = loadSound('audio/theme.mp3');
-  cakeVid = loadAni('cake_making.gif');
+  cakeVid = loadAni('images/cake_making.gif');
 }
 
 function setup() {
