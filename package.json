@@ -1,0 +1,25 @@
+{
+  "name": "strawberraroll_prototype",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "build": "rollup --config",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yofuturequeen/strawberraroll_prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yofuturequeen/strawberraroll_prototype/issues"
+  },
+  "homepage": "https://github.com/yofuturequeen/strawberraroll_prototype#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@web/dev-server": "^0.1.35",
+    "rollup": "^2.79.1",
+    "rollup-plugin-copy": "^3.4.0"
+  }
+}
